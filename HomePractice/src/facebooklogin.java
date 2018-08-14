@@ -20,7 +20,7 @@ static WebDriver driver;
 		Screenshot.capturescreenshot(driver, "Login1");
 		
 		driver.findElement(By.xpath("//*[@value='Log In']")).click();
-		driver.navigate().refresh();
+		driver.navigate().back();
 		driver.close();
 		
 		
